@@ -1,8 +1,9 @@
-var cardOne = "queen";
-var cardTwo = "queen";
-var cardThree = "king";
-var cardFour = "king";
+var cardOne = 'queen';
+var cardTwo = 'queen';
+var cardThree = 'king';
+var cardFour = 'king';
 
+/*
 if(cardTwo===cardFour) {
   alert("Sorry, try again.");
 } else if(cardTwo===cardOne) {
@@ -12,3 +13,16 @@ if(cardTwo===cardFour) {
 } else {
   alert("Sorry, try again.");
 }
+*/
+
+document.getElementById('game-board');
+
+var createBoard=function(){
+  for(i=0; i<cards.length; i++) {
+  var newElement=document.createElement('card');
+  newElement.classNanme='card';
+  card.appendChild('game-board');
+  }
+}
+
+console.log(createBoard);
