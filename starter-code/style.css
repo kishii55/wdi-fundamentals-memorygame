@@ -14,7 +14,7 @@
   margin: 8%;
 }
 
-.name {
+.name, .heart {
   color: #ff0000;
 }
 
@@ -56,5 +56,14 @@ nav a:hover {
 }
 
 footer {
-  padding-top: 200px;
+  position: center;
+  clear: both;
+  overflow: hidden;
+  margin: 0 auto;
+  padding-top: 800px;
+}
+
+img {
+  height: 200px;
+  width: 150px;
 }
