@@ -2,7 +2,7 @@ var cards = ['queen', 'queen', 'king', 'king'];
 var cardsInPlay = [];
 
 var gameBoard=document.getElementById('game-board');
-function createBoard() {
+var createBoard = function() {
   for (i=0; i<cards.length; i++) {
   var cardElement=document.createElement('div');
   cardElement.className = 'card';
@@ -14,7 +14,6 @@ function createBoard() {
 
 function isTwoCards() {
   cardsInPlay.push(this.getAttribute('data-card'));
-    console.log(this.getAttribute('data-card'));
   if (this.getAttribute('data-card')==='queen') {
     this.innerHTML = '<img src="https://cdn.pixabay.com/photo/2013/07/13/10/43/cards-157645_960_720.png" />';
   } else {
@@ -33,5 +32,5 @@ function isTwoCards() {
       alert("Sorry, try again.");
     }
   }
-  cardsInPlay = [];
+
   createBoard();

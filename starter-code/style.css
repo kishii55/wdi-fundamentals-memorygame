@@ -1,5 +1,5 @@
 .board {
-  height: 50%;
+  height: 80%;
   width: 50%;
   display: inline-block;
 }
@@ -49,6 +49,7 @@ nav a {
   padding: 35px;
   display: block;
   float: left;
+  text-decoration: none;
 }
 
 nav a:hover {
@@ -56,11 +57,11 @@ nav a:hover {
 }
 
 footer {
+  background-color: #808080;
   position: center;
   clear: both;
   overflow: hidden;
   margin: 0 auto;
-  padding-top: 800px;
 }
 
 img {
